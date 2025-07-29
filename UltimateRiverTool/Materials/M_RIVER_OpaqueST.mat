@@ -1,0 +1,11 @@
+Diffuse=DefaultTexture
+Normal=T_FallingWater_02_N
+Other[0]=T_NoisesBig_BC
+Other[1]=T_Water_Ripple_Directional_Noise
+Other[2]=T_FallingWater_02
+Other[3]=T_FlowNoise_M
+Other[4]=T_FlowTexture_BC
+Other[5]=T_Foam_Masks_BC
+Other[6]=T_FoamBubbles_BC
+Other[7]=T_FoamMacro_BC
+Other[8]=T_WaterfallMask_N

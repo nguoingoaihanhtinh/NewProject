@@ -1,0 +1,1021 @@
+TwoSided = false
+bDisableDepthTest = false
+bIsMasked = false
+ReferencedTextures[11] =
+{
+    ReferencedTextures[0] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+    ReferencedTextures[1] = Texture2D'/Game/Environment/Resource/Water/Texture/T_NoisesBig_BC.T_NoisesBig_BC'
+    ReferencedTextures[2] = Texture2D'/Game/Environment/Resource/Water/Texture/T_Water_Ripple_Directional_Noise.T_Water_Ripple_Directional_Noise'
+    ReferencedTextures[3] = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02.T_FallingWater_02'
+    ReferencedTextures[4] = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02_N.T_FallingWater_02_N'
+    ReferencedTextures[5] = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowNoise_M.T_FlowNoise_M'
+    ReferencedTextures[6] = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowTexture_BC.T_FlowTexture_BC'
+    ReferencedTextures[7] = Texture2D'/Game/UltimateRiverTool/Textures/T_Foam_Masks_BC.T_Foam_Masks_BC'
+    ReferencedTextures[8] = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamBubbles_BC.T_FoamBubbles_BC'
+    ReferencedTextures[9] = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamMacro_BC.T_FoamMacro_BC'
+    ReferencedTextures[10] = Texture2D'/Game/UltimateRiverTool/Textures/T_WaterfallMask_N.T_WaterfallMask_N'
+}
+Expressions[0] = {}
+CachedExpressionData =
+{
+    Parameters =
+    {
+        Entries[5] =
+        {
+            Entries[0] =
+            {
+                ParameterInfos[132] =
+                {
+                    ParameterInfos[0] = { Name=Flowmap_Power }
+                    ParameterInfos[1] = { Name=Front_LandscapeIntersection }
+                    ParameterInfos[2] = { Name=TurbulentFoam_Scale_Y }
+                    ParameterInfos[3] = { Name=Roughness }
+                    ParameterInfos[4] = { Name=SlopeRiver_Falloff }
+                    ParameterInfos[5] = { Name=Bubbles_Scale_X }
+                    ParameterInfos[6] = { Name=Slopes_Normals_Scale }
+                    ParameterInfos[7] = { Name=Distortion_FadeDistance }
+                    ParameterInfos[8] = { Name=Refraction }
+                    ParameterInfos[9] = { Name=Slopes_Roughness_Multiplier }
+                    ParameterInfos[10] = { Name=NormalScaleY }
+                    ParameterInfos[11] = { Name=NonDF_EdgeOpacity }
+                    ParameterInfos[12] = { Name=AutoWave_NormalDepth }
+                    ParameterInfos[13] = { Name=Slopes_Refraction_Multiplier }
+                    ParameterInfos[14] = { Name=DistanceField_ZOffset }
+                    ParameterInfos[15] = { Name=Slopes_Refraction_OpcaityPower }
+                    ParameterInfos[16] = { Name=Metallic }
+                    ParameterInfos[17] = { Name=Slopes_BaseColor_Distortion_Strength }
+                    ParameterInfos[18] = { Name=SlopeRiver_StartAngle }
+                    ParameterInfos[19] = { Name=E_Param }
+                    ParameterInfos[20] = { Name=Slopes_Normals_ScaleY }
+                    ParameterInfos[21] = { Name=FrontWavePower }
+                    ParameterInfos[22] = { Name=FoamTexture_Intensity }
+                    ParameterInfos[23] = { Name=Slopes_Emissive_Power }
+                    ParameterInfos[24] = { Name=FoamIntensity }
+                    ParameterInfos[25] = { Name=Slopes_Tex1_Speed_X }
+                    ParameterInfos[26] = { Name=Specular }
+                    ParameterInfos[27] = { Name=Slopes_ScaleX }
+                    ParameterInfos[28] = { Name=BasePower }
+                    ParameterInfos[29] = { Name=Slopes1_OpcaityPower }
+                    ParameterInfos[30] = { Name=Bubbles_Scale }
+                    ParameterInfos[31] = { Name=NormalScaler }
+                    ParameterInfos[32] = { Name=Slopes_BaseColor_Distortion_FadeDistance }
+                    ParameterInfos[33] = { Name=Slopes_Foam_ScalerY }
+                    ParameterInfos[34] = { Name=Foam_MaxMask }
+                    ParameterInfos[35] = { Name=TransitionFoam_Intensity }
+                    ParameterInfos[36] = { Name=Flowmap_LinearFlowClamp }
+                    ParameterInfos[37] = { Name=Slopes_Heightmask_Contrast }
+                    ParameterInfos[38] = { Name=Slopes_Tex1_1_Parallax }
+                    ParameterInfos[39] = { Name=Obstacles_BackPower }
+                    ParameterInfos[40] = { Name=EdgeDistance }
+                    ParameterInfos[41] = { Name=UVDistortion_Linear }
+                    ParameterInfos[42] = { Name=LinearFlowAlpha_Power }
+                    ParameterInfos[43] = { Name=Slopes1_Multiplier }
+                    ParameterInfos[44] = { Name=da }
+                    ParameterInfos[45] = { Name=Foam1_Scale_Y }
+                    ParameterInfos[46] = { Name=Bubbles_Scale_Y }
+                    ParameterInfos[47] = { Name=Slopes_Tex1_4_Parallax }
+                    ParameterInfos[48] = { Name=SlopeFoam1_Scale }
+                    ParameterInfos[49] = { Name=Scale }
+                    ParameterInfos[50] = { Name=Obstacles_SidePower }
+                    ParameterInfos[51] = { Name=UVDistortion_Turbulent }
+                    ParameterInfos[52] = { Name=Obstacles_FrontPower }
+                    ParameterInfos[53] = { Name=Base_WhiteFoam_Multiplier }
+                    ParameterInfos[54] = { Name=FoamMacroMaskScale }
+                    ParameterInfos[55] = { Name=Slopes_Tex1_ScaleX }
+                    ParameterInfos[56] = { Name=FlowTexture_Intensity }
+                    ParameterInfos[57] = { Name=Edge }
+                    ParameterInfos[58] = { Name=MaterialScaleX }
+                    ParameterInfos[59] = { Name=SlopeRiver_FalloffContrast }
+                    ParameterInfos[60] = { Name=MaterialScaleY }
+                    ParameterInfos[61] = { Name=NonDF_Opacity_FadeDistance }
+                    ParameterInfos[62] = { Name=Slopes_Tex2_Speed_Y }
+                    ParameterInfos[63] = { Name=FlowSpeed_Linear }
+                    ParameterInfos[64] = { Name=Foam_MultilayersSpeed }
+                    ParameterInfos[65] = { Name=Flowmap_Radius }
+                    ParameterInfos[66] = { Name=Slopes_Tex1_Speed_Y }
+                    ParameterInfos[67] = { Name=Base_WhiteFoam_Power }
+                    ParameterInfos[68] = { Name=TransitionFoam_Power }
+                    ParameterInfos[69] = { Name=Slopes_BaseColor_Fresnel_Distortion }
+                    ParameterInfos[70] = { Name=FlowSpeed_Turbulent }
+                    ParameterInfos[71] = { Name=Slopes_BaseColor_Distortion_Intensity }
+                    ParameterInfos[72] = { Name=Foam1_Scale }
+                    ParameterInfos[73] = { Name=Slopes_Tex1_ScaleY }
+                    ParameterInfos[74] = { Name=Slopes_ScaleY }
+                    ParameterInfos[75] = { Name=LinearFlowAlpha_Intensity }
+                    ParameterInfos[76] = { Name=Slopes_Metallic_Multiplier }
+                    ParameterInfos[77] = { Name=Slopes_Roughness_Power }
+                    ParameterInfos[78] = { Name=Slopes_Diffusivity }
+                    ParameterInfos[79] = { Name=SlopesFoamTexture_Intensity }
+                    ParameterInfos[80] = { Name=TurbulentFoam_Scale_X }
+                    ParameterInfos[81] = { Name=Slopes_Normals_Transition_Speed }
+                    ParameterInfos[82] = { Name=Flowmap_Intensity }
+                    ParameterInfos[83] = { Name=NormalScaleX }
+                    ParameterInfos[84] = { Name=Flowmap_LinearFlowPower }
+                    ParameterInfos[85] = { Name=Slopes_Tex1_3_Parallax }
+                    ParameterInfos[86] = { Name=Obstacles_SideIntensity }
+                    ParameterInfos[87] = { Name=BubblesTexture_Power }
+                    ParameterInfos[88] = { Name=PerInstanceOffset }
+                    ParameterInfos[89] = { Name=FoamHighFlowIntensity }
+                    ParameterInfos[90] = { Name=Slopes_Foam_ScalerX }
+                    ParameterInfos[91] = { Name=Slopes_BaseColor_Distortion_Intensity_Max }
+                    ParameterInfos[92] = { Name=FlowSpeed_BubblesFoam }
+                    ParameterInfos[93] = { Name=FrontWave_Intensity }
+                    ParameterInfos[94] = { Name=Distortion_Intensity }
+                    ParameterInfos[95] = { Name=Opacity_FadeDistance }
+                    ParameterInfos[96] = { Name=Distortion_Intensity_Max }
+                    ParameterInfos[97] = { Name=Slopes_Tex1_2_Parallax }
+                    ParameterInfos[98] = { Name=Slopes_Emissive_Multiplier }
+                    ParameterInfos[99] = { Name=BubblesTexture_Intensity }
+                    ParameterInfos[100] = { Name=FlowTexture_MacroScale }
+                    ParameterInfos[101] = { Name=Slopes_FoamTransition_ScalerX }
+                    ParameterInfos[102] = { Name=Deep_Distance }
+                    ParameterInfos[103] = { Name=Obstacles_BackIntensity }
+                    ParameterInfos[104] = { Name=Slopes_FoamTransition_ScalerY }
+                    ParameterInfos[105] = { Name=UVDistortion_FoamSlope }
+                    ParameterInfos[106] = { Name=Bubbles_Chaos }
+                    ParameterInfos[107] = { Name=Opacity }
+                    ParameterInfos[108] = { Name=Slopes_BaseColor_Deep_Distance }
+                    ParameterInfos[109] = { Name=FoamMacroMaskPower }
+                    ParameterInfos[110] = { Name=Slopes_Refraction }
+                    ParameterInfos[111] = { Name=AutoWaveScale }
+                    ParameterInfos[112] = { Name=UVDistortion_Slopes }
+                    ParameterInfos[113] = { Name=Slopes_Normal_Speed }
+                    ParameterInfos[114] = { Name=Slopes_Heightmask_Brightness }
+                    ParameterInfos[115] = { Name=Slopes_Normals_ScaleX }
+                    ParameterInfos[116] = { Name=Obstacles_FrontIntensity }
+                    ParameterInfos[117] = { Name=Slopes_Metallic_Power }
+                    ParameterInfos[118] = { Name=Slope_MinOpacity }
+                    ParameterInfos[119] = { Name=Foam1_Scale_X }
+                    ParameterInfos[120] = { Name=BaseIntensity }
+                    ParameterInfos[121] = { Name=Fresnel_Distortion }
+                    ParameterInfos[122] = { Name=AutoWave_Speed }
+                    ParameterInfos[123] = { Name=Distortion_Strength }
+                    ParameterInfos[124] = { Name=SlopeRiver_EndAngle }
+                    ParameterInfos[125] = { Name=FlowTexture_Turbulent_Intensity }
+                    ParameterInfos[126] = { Name=Color_FadeDistance }
+                    ParameterInfos[127] = { Name=TurbulentFlowSpeed }
+                    ParameterInfos[128] = { Name=TransitionScale }
+                    ParameterInfos[129] = { Name=TranasitionSpeed }
+                    ParameterInfos[130] = { Name=FlowTexture_Lerp }
+                    ParameterInfos[131] = { Name=Diffusivity }
+                }
+            }
+            Entries[1] =
+            {
+                ParameterInfos[12] =
+                {
+                    ParameterInfos[0] = { Name=Slopes_AltNRip_Normal_Multiplier }
+                    ParameterInfos[1] = { Name=Slopes_Normal_Power }
+                    ParameterInfos[2] = { Name=ColorWaterDeep }
+                    ParameterInfos[3] = { Name=Slopes_Transition_Speed1 }
+                    ParameterInfos[4] = { Name=DeepColor }
+                    ParameterInfos[5] = { Name=Water_Tint }
+                    ParameterInfos[6] = { Name=Normal_Power }
+                    ParameterInfos[7] = { Name=ColorWaterSurface }
+                    ParameterInfos[8] = { Name=Slopes_Transition_Speed2 }
+                    ParameterInfos[9] = { Name=Contour }
+                    ParameterInfos[10] = { Name=Slopes_AltNormals_Intensity }
+                    ParameterInfos[11] = { Name=Slopes_WaterTint }
+                }
+            }
+            Entries[2] =
+            {
+                ParameterInfos[10] =
+                {
+                    ParameterInfos[0] = { Name=Noises }
+                    ParameterInfos[1] = { Name=LinearNormal }
+                    ParameterInfos[2] = { Name=WaterNoizeBlend }
+                    ParameterInfos[3] = { Name=FoamBubbles }
+                    ParameterInfos[4] = { Name=FlowFoam }
+                    ParameterInfos[5] = { Name=WaterDrop }
+                    ParameterInfos[6] = { Name=Foam1 }
+                    ParameterInfos[7] = { Name=FallingWater2_N }
+                    ParameterInfos[8] = { Name=WaterDrop_N }
+                    ParameterInfos[9] = { Name=TurbulentSlopes }
+                }
+            }
+            Entries[3] = { ParameterInfos[0]={} }
+            Entries[4] = { ParameterInfos[0]={} }
+        }
+        ScalarValues[132] =
+        {
+            ScalarValues[0] = 0.966456
+            ScalarValues[1] = 0.01
+            ScalarValues[2] = 0.917863
+            ScalarValues[3] = 0.01
+            ScalarValues[4] = 1.6
+            ScalarValues[5] = 1
+            ScalarValues[6] = 0.742764
+            ScalarValues[7] = 1
+            ScalarValues[8] = 1.5
+            ScalarValues[9] = 0.01
+            ScalarValues[10] = 0.5
+            ScalarValues[11] = 0.95
+            ScalarValues[12] = 17.6127
+            ScalarValues[13] = 4.34065
+            ScalarValues[14] = 133
+            ScalarValues[15] = 0.229358
+            ScalarValues[16] = 0.5
+            ScalarValues[17] = 3.11529
+            ScalarValues[18] = -112
+            ScalarValues[19] = 1
+            ScalarValues[20] = 1
+            ScalarValues[21] = 1
+            ScalarValues[22] = 0.5
+            ScalarValues[23] = 3.53116
+            ScalarValues[24] = 0.390932
+            ScalarValues[25] = 0.1
+            ScalarValues[26] = 0.5
+            ScalarValues[27] = 0.45
+            ScalarValues[28] = 0.103479
+            ScalarValues[29] = 1
+            ScalarValues[30] = 1
+            ScalarValues[31] = 7
+            ScalarValues[32] = 1
+            ScalarValues[33] = 1.5
+            ScalarValues[34] = 1
+            ScalarValues[35] = 1
+            ScalarValues[36] = 0
+            ScalarValues[37] = 0.099824
+            ScalarValues[38] = -4
+            ScalarValues[39] = 0.461563
+            ScalarValues[40] = 60
+            ScalarValues[41] = 0.2
+            ScalarValues[42] = 0.848029
+            ScalarValues[43] = 3
+            ScalarValues[44] = 1
+            ScalarValues[45] = 0.483872
+            ScalarValues[46] = 0.817707
+            ScalarValues[47] = -2
+            ScalarValues[48] = 15
+            ScalarValues[49] = 0.1
+            ScalarValues[50] = 8.43894
+            ScalarValues[51] = 1
+            ScalarValues[52] = 66.65
+            ScalarValues[53] = 1
+            ScalarValues[54] = 0.1
+            ScalarValues[55] = 0.493867
+            ScalarValues[56] = 0.15
+            ScalarValues[57] = 0.3
+            ScalarValues[58] = 1
+            ScalarValues[59] = 4.3
+            ScalarValues[60] = 1
+            ScalarValues[61] = 15
+            ScalarValues[62] = 1.86164
+            ScalarValues[63] = 0.12
+            ScalarValues[64] = 0.5
+            ScalarValues[65] = 68.2375
+            ScalarValues[66] = 0.283486
+            ScalarValues[67] = 0.283661
+            ScalarValues[68] = 1.5
+            ScalarValues[69] = 6.96245
+            ScalarValues[70] = 0.66
+            ScalarValues[71] = 3.87499
+            ScalarValues[72] = 5.53777
+            ScalarValues[73] = 0.27156
+            ScalarValues[74] = 0.988425
+            ScalarValues[75] = 0.99464
+            ScalarValues[76] = 0.5
+            ScalarValues[77] = 1
+            ScalarValues[78] = 1.73839
+            ScalarValues[79] = 2.29192
+            ScalarValues[80] = 1
+            ScalarValues[81] = 0.972056
+            ScalarValues[82] = 6.38018
+            ScalarValues[83] = 2
+            ScalarValues[84] = 2
+            ScalarValues[85] = -1
+            ScalarValues[86] = 1.27909
+            ScalarValues[87] = 4.72748
+            ScalarValues[88] = 0
+            ScalarValues[89] = 0.945203
+            ScalarValues[90] = 1.5
+            ScalarValues[91] = 1
+            ScalarValues[92] = 0.05
+            ScalarValues[93] = 2
+            ScalarValues[94] = 3.87499
+            ScalarValues[95] = 15
+            ScalarValues[96] = 1
+            ScalarValues[97] = -3
+            ScalarValues[98] = 0.327478
+            ScalarValues[99] = 6.3533
+            ScalarValues[100] = 0.1
+            ScalarValues[101] = 0.05
+            ScalarValues[102] = 287.512
+            ScalarValues[103] = 0.666843
+            ScalarValues[104] = 0.05
+            ScalarValues[105] = 0.271458
+            ScalarValues[106] = 0.550459
+            ScalarValues[107] = 0.95
+            ScalarValues[108] = 98.2201
+            ScalarValues[109] = 0.1
+            ScalarValues[110] = 1.77693
+            ScalarValues[111] = 0.377893
+            ScalarValues[112] = 0.145871
+            ScalarValues[113] = 2
+            ScalarValues[114] = 2.5
+            ScalarValues[115] = 0.5
+            ScalarValues[116] = 0.294461
+            ScalarValues[117] = 1
+            ScalarValues[118] = 0.8
+            ScalarValues[119] = 1
+            ScalarValues[120] = 1.48827
+            ScalarValues[121] = 6.96245
+            ScalarValues[122] = 1.09726
+            ScalarValues[123] = 0.6
+            ScalarValues[124] = 360
+            ScalarValues[125] = 1
+            ScalarValues[126] = 200
+            ScalarValues[127] = 1.59021
+            ScalarValues[128] = 0.4
+            ScalarValues[129] = 0.25
+            ScalarValues[130] = 0.438056
+            ScalarValues[131] = 0.180132
+        }
+        VectorValues[12] =
+        {
+            VectorValues[0] = { R=5, G=5, B=0.01, A=1 }
+            VectorValues[1] = { R=0.604098, G=0.615904, B=0.561214, A=1 }
+            VectorValues[2] = { R=0.0425, G=0.0765, B=0.085, A=1 }
+            VectorValues[3] = { R=0.145413, G=0.03, B=0, A=1 }
+            VectorValues[4] = { R=0.526943, G=0.655155, B=0.8, A=1 }
+            VectorValues[5] = { R=0.126325, G=0.145033, B=0.155, A=1 }
+            VectorValues[6] = { R=0.161134, G=0.43187, B=2.47898, A=1 }
+            VectorValues[7] = { R=0.117, G=0.156, B=0.195, A=1 }
+            VectorValues[8] = { R=0.229358, G=-0.03, B=0, A=1 }
+            VectorValues[9] = { R=0.526943, G=0.655155, B=0.8, A=1 }
+            VectorValues[10] = { R=4, G=4, B=1, A=1 }
+            VectorValues[11] = { R=0.0287, G=0.03281, B=0.035, A=1 }
+        }
+        TextureValues[10] =
+        {
+            TextureValues[0] = Texture2D'/Game/Environment/Resource/Water/Texture/T_NoisesBig_BC.T_NoisesBig_BC'
+            TextureValues[1] = Texture2D'/Game/Environment/Resource/Water/Texture/T_Water_Ripple_Directional_Noise.T_Water_Ripple_Directional_Noise'
+            TextureValues[2] = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowNoise_M.T_FlowNoise_M'
+            TextureValues[3] = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamBubbles_BC.T_FoamBubbles_BC'
+            TextureValues[4] = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowTexture_BC.T_FlowTexture_BC'
+            TextureValues[5] = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02.T_FallingWater_02'
+            TextureValues[6] = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamMacro_BC.T_FoamMacro_BC'
+            TextureValues[7] = Texture2D'/Game/UltimateRiverTool/Textures/T_WaterfallMask_N.T_WaterfallMask_N'
+            TextureValues[8] = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02_N.T_FallingWater_02_N'
+            TextureValues[9] = Texture2D'/Game/UltimateRiverTool/Textures/T_Foam_Masks_BC.T_Foam_Masks_BC'
+        }
+    }
+    ReferencedTextures[12] =
+    {
+        ReferencedTextures[0] = Texture2D'/Game/Environment/Resource/Water/Texture/T_NoisesBig_BC.T_NoisesBig_BC'
+        ReferencedTextures[1] = Texture2D'/Game/Environment/Resource/Water/Texture/T_Water_Ripple_Directional_Noise.T_Water_Ripple_Directional_Noise'
+        ReferencedTextures[3] = Texture2D'/Engine/EngineResources/DefaultTexture.DefaultTexture'
+        ReferencedTextures[4] = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowTexture_BC.T_FlowTexture_BC'
+        ReferencedTextures[5] = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamBubbles_BC.T_FoamBubbles_BC'
+        ReferencedTextures[6] = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamMacro_BC.T_FoamMacro_BC'
+        ReferencedTextures[7] = Texture2D'/Game/UltimateRiverTool/Textures/T_Foam_Masks_BC.T_Foam_Masks_BC'
+        ReferencedTextures[8] = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02.T_FallingWater_02'
+        ReferencedTextures[9] = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02_N.T_FallingWater_02_N'
+        ReferencedTextures[10] = Texture2D'/Game/UltimateRiverTool/Textures/T_WaterfallMask_N.T_WaterfallMask_N'
+        ReferencedTextures[11] = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowNoise_M.T_FlowNoise_M'
+    }
+}
+BlendMode = BLEND_Translucent (2)
+OpacityMaskClipValue = 0.333
+CollectedTextureParameters[10] =
+{
+    CollectedTextureParameters[0] =
+    {
+        Texture = Texture2D'/Game/Environment/Resource/Water/Texture/T_NoisesBig_BC.T_NoisesBig_BC'
+        Name = Noises
+        Group = None
+    }
+    CollectedTextureParameters[1] =
+    {
+        Texture = Texture2D'/Game/Environment/Resource/Water/Texture/T_Water_Ripple_Directional_Noise.T_Water_Ripple_Directional_Noise'
+        Name = LinearNormal
+        Group = None
+    }
+    CollectedTextureParameters[2] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowNoise_M.T_FlowNoise_M'
+        Name = WaterNoizeBlend
+        Group = None
+    }
+    CollectedTextureParameters[3] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamBubbles_BC.T_FoamBubbles_BC'
+        Name = FoamBubbles
+        Group = None
+    }
+    CollectedTextureParameters[4] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowTexture_BC.T_FlowTexture_BC'
+        Name = FlowFoam
+        Group = None
+    }
+    CollectedTextureParameters[5] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02.T_FallingWater_02'
+        Name = WaterDrop
+        Group = None
+    }
+    CollectedTextureParameters[6] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamMacro_BC.T_FoamMacro_BC'
+        Name = Foam1
+        Group = None
+    }
+    CollectedTextureParameters[7] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/T_WaterfallMask_N.T_WaterfallMask_N'
+        Name = FallingWater2_N
+        Group = None
+    }
+    CollectedTextureParameters[8] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02_N.T_FallingWater_02_N'
+        Name = WaterDrop_N
+        Group = None
+    }
+    CollectedTextureParameters[9] =
+    {
+        Texture = Texture2D'/Game/UltimateRiverTool/Textures/T_Foam_Masks_BC.T_Foam_Masks_BC'
+        Name = TurbulentSlopes
+        Group = None
+    }
+}
+CollectedScalarParameters[132] =
+{
+    CollectedScalarParameters[0] = { Value=0.966456, Name=Flowmap_Power, Group=None }
+    CollectedScalarParameters[1] =
+    {
+        Value = 0.01
+        Name = Front_LandscapeIntersection
+        Group = None
+    }
+    CollectedScalarParameters[2] =
+    {
+        Value = 0.917863
+        Name = TurbulentFoam_Scale_Y
+        Group = None
+    }
+    CollectedScalarParameters[3] = { Value=0.01, Name=Roughness, Group=None }
+    CollectedScalarParameters[4] = { Value=1.6, Name=SlopeRiver_Falloff, Group=None }
+    CollectedScalarParameters[5] = { Value=1, Name=Bubbles_Scale_X, Group=None }
+    CollectedScalarParameters[6] =
+    {
+        Value = 0.742764
+        Name = Slopes_Normals_Scale
+        Group = None
+    }
+    CollectedScalarParameters[7] =
+    {
+        Value = 1
+        Name = Distortion_FadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[8] = { Value=1.5, Name=Refraction, Group=None }
+    CollectedScalarParameters[9] =
+    {
+        Value = 0.01
+        Name = Slopes_Roughness_Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[10] = { Value=0.5, Name=NormalScaleY, Group=None }
+    CollectedScalarParameters[11] = { Value=0.95, Name=NonDF_EdgeOpacity, Group=None }
+    CollectedScalarParameters[12] =
+    {
+        Value = 17.6127
+        Name = AutoWave_NormalDepth
+        Group = None
+    }
+    CollectedScalarParameters[13] =
+    {
+        Value = 4.34065
+        Name = Slopes_Refraction_Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[14] =
+    {
+        Value = 133
+        Name = DistanceField_ZOffset
+        Group = None
+    }
+    CollectedScalarParameters[15] =
+    {
+        Value = 0.229358
+        Name = Slopes_Refraction_OpcaityPower
+        Group = None
+    }
+    CollectedScalarParameters[16] = { Value=0.5, Name=Metallic, Group=None }
+    CollectedScalarParameters[17] =
+    {
+        Value = 3.11529
+        Name = Slopes_BaseColor_Distortion_Strength
+        Group = None
+    }
+    CollectedScalarParameters[18] =
+    {
+        Value = -112
+        Name = SlopeRiver_StartAngle
+        Group = None
+    }
+    CollectedScalarParameters[19] = { Value=1, Name=E_Param, Group=None }
+    CollectedScalarParameters[20] = { Value=1, Name=Slopes_Normals_ScaleY, Group=None }
+    CollectedScalarParameters[21] = { Value=1, Name=FrontWavePower, Group=None }
+    CollectedScalarParameters[22] =
+    {
+        Value = 0.5
+        Name = FoamTexture_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[23] =
+    {
+        Value = 3.53116
+        Name = Slopes_Emissive_Power
+        Group = None
+    }
+    CollectedScalarParameters[24] = { Value=0.390932, Name=FoamIntensity, Group=None }
+    CollectedScalarParameters[25] = { Value=0.1, Name=Slopes_Tex1_Speed_X, Group=None }
+    CollectedScalarParameters[26] = { Value=0.5, Name=Specular, Group=None }
+    CollectedScalarParameters[27] = { Value=0.45, Name=Slopes_ScaleX, Group=None }
+    CollectedScalarParameters[28] = { Value=0.103479, Name=BasePower, Group=None }
+    CollectedScalarParameters[29] = { Value=1, Name=Slopes1_OpcaityPower, Group=None }
+    CollectedScalarParameters[30] = { Value=1, Name=Bubbles_Scale, Group=None }
+    CollectedScalarParameters[31] = { Value=7, Name=NormalScaler, Group=None }
+    CollectedScalarParameters[32] =
+    {
+        Value = 1
+        Name = Slopes_BaseColor_Distortion_FadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[33] = { Value=1.5, Name=Slopes_Foam_ScalerY, Group=None }
+    CollectedScalarParameters[34] = { Value=1, Name=Foam_MaxMask, Group=None }
+    CollectedScalarParameters[35] =
+    {
+        Value = 1
+        Name = TransitionFoam_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[36] =
+    {
+        Value = 0
+        Name = Flowmap_LinearFlowClamp
+        Group = None
+    }
+    CollectedScalarParameters[37] =
+    {
+        Value = 0.099824
+        Name = Slopes_Heightmask_Contrast
+        Group = None
+    }
+    CollectedScalarParameters[38] =
+    {
+        Value = -4
+        Name = Slopes_Tex1_1_Parallax
+        Group = None
+    }
+    CollectedScalarParameters[39] =
+    {
+        Value = 0.461563
+        Name = Obstacles_BackPower
+        Group = None
+    }
+    CollectedScalarParameters[40] = { Value=60, Name=EdgeDistance, Group=None }
+    CollectedScalarParameters[41] = { Value=0.2, Name=UVDistortion_Linear, Group=None }
+    CollectedScalarParameters[42] =
+    {
+        Value = 0.848029
+        Name = LinearFlowAlpha_Power
+        Group = None
+    }
+    CollectedScalarParameters[43] = { Value=3, Name=Slopes1_Multiplier, Group=None }
+    CollectedScalarParameters[44] = { Value=1, Name=da, Group=None }
+    CollectedScalarParameters[45] = { Value=0.483872, Name=Foam1_Scale_Y, Group=None }
+    CollectedScalarParameters[46] = { Value=0.817707, Name=Bubbles_Scale_Y, Group=None }
+    CollectedScalarParameters[47] =
+    {
+        Value = -2
+        Name = Slopes_Tex1_4_Parallax
+        Group = None
+    }
+    CollectedScalarParameters[48] = { Value=15, Name=SlopeFoam1_Scale, Group=None }
+    CollectedScalarParameters[49] = { Value=0.1, Name=Scale, Group=None }
+    CollectedScalarParameters[50] =
+    {
+        Value = 8.43894
+        Name = Obstacles_SidePower
+        Group = None
+    }
+    CollectedScalarParameters[51] = { Value=1, Name=UVDistortion_Turbulent, Group=None }
+    CollectedScalarParameters[52] =
+    {
+        Value = 66.65
+        Name = Obstacles_FrontPower
+        Group = None
+    }
+    CollectedScalarParameters[53] =
+    {
+        Value = 1
+        Name = Base_WhiteFoam_Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[54] = { Value=0.1, Name=FoamMacroMaskScale, Group=None }
+    CollectedScalarParameters[55] =
+    {
+        Value = 0.493867
+        Name = Slopes_Tex1_ScaleX
+        Group = None
+    }
+    CollectedScalarParameters[56] =
+    {
+        Value = 0.15
+        Name = FlowTexture_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[57] = { Value=0.3, Name=Edge, Group=None }
+    CollectedScalarParameters[58] = { Value=1, Name=MaterialScaleX, Group=None }
+    CollectedScalarParameters[59] =
+    {
+        Value = 4.3
+        Name = SlopeRiver_FalloffContrast
+        Group = None
+    }
+    CollectedScalarParameters[60] = { Value=1, Name=MaterialScaleY, Group=None }
+    CollectedScalarParameters[61] =
+    {
+        Value = 15
+        Name = NonDF_Opacity_FadeDistance
+        Group = None
+    }
+    CollectedScalarParameters[62] =
+    {
+        Value = 1.86164
+        Name = Slopes_Tex2_Speed_Y
+        Group = None
+    }
+    CollectedScalarParameters[63] = { Value=0.12, Name=FlowSpeed_Linear, Group=None }
+    CollectedScalarParameters[64] =
+    {
+        Value = 0.5
+        Name = Foam_MultilayersSpeed
+        Group = None
+    }
+    CollectedScalarParameters[65] = { Value=68.2375, Name=Flowmap_Radius, Group=None }
+    CollectedScalarParameters[66] =
+    {
+        Value = 0.283486
+        Name = Slopes_Tex1_Speed_Y
+        Group = None
+    }
+    CollectedScalarParameters[67] =
+    {
+        Value = 0.283661
+        Name = Base_WhiteFoam_Power
+        Group = None
+    }
+    CollectedScalarParameters[68] = { Value=1.5, Name=TransitionFoam_Power, Group=None }
+    CollectedScalarParameters[69] =
+    {
+        Value = 6.96245
+        Name = Slopes_BaseColor_Fresnel_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[70] = { Value=0.66, Name=FlowSpeed_Turbulent, Group=None }
+    CollectedScalarParameters[71] =
+    {
+        Value = 3.87499
+        Name = Slopes_BaseColor_Distortion_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[72] = { Value=5.53777, Name=Foam1_Scale, Group=None }
+    CollectedScalarParameters[73] =
+    {
+        Value = 0.27156
+        Name = Slopes_Tex1_ScaleY
+        Group = None
+    }
+    CollectedScalarParameters[74] = { Value=0.988425, Name=Slopes_ScaleY, Group=None }
+    CollectedScalarParameters[75] =
+    {
+        Value = 0.99464
+        Name = LinearFlowAlpha_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[76] =
+    {
+        Value = 0.5
+        Name = Slopes_Metallic_Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[77] = { Value=1, Name=Slopes_Roughness_Power, Group=None }
+    CollectedScalarParameters[78] =
+    {
+        Value = 1.73839
+        Name = Slopes_Diffusivity
+        Group = None
+    }
+    CollectedScalarParameters[79] =
+    {
+        Value = 2.29192
+        Name = SlopesFoamTexture_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[80] = { Value=1, Name=TurbulentFoam_Scale_X, Group=None }
+    CollectedScalarParameters[81] =
+    {
+        Value = 0.972056
+        Name = Slopes_Normals_Transition_Speed
+        Group = None
+    }
+    CollectedScalarParameters[82] =
+    {
+        Value = 6.38018
+        Name = Flowmap_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[83] = { Value=2, Name=NormalScaleX, Group=None }
+    CollectedScalarParameters[84] =
+    {
+        Value = 2
+        Name = Flowmap_LinearFlowPower
+        Group = None
+    }
+    CollectedScalarParameters[85] =
+    {
+        Value = -1
+        Name = Slopes_Tex1_3_Parallax
+        Group = None
+    }
+    CollectedScalarParameters[86] =
+    {
+        Value = 1.27909
+        Name = Obstacles_SideIntensity
+        Group = None
+    }
+    CollectedScalarParameters[87] =
+    {
+        Value = 4.72748
+        Name = BubblesTexture_Power
+        Group = None
+    }
+    CollectedScalarParameters[88] = { Value=0, Name=PerInstanceOffset, Group=None }
+    CollectedScalarParameters[89] =
+    {
+        Value = 0.945203
+        Name = FoamHighFlowIntensity
+        Group = None
+    }
+    CollectedScalarParameters[90] = { Value=1.5, Name=Slopes_Foam_ScalerX, Group=None }
+    CollectedScalarParameters[91] =
+    {
+        Value = 1
+        Name = Slopes_BaseColor_Distortion_Intensity_Max
+        Group = None
+    }
+    CollectedScalarParameters[92] =
+    {
+        Value = 0.05
+        Name = FlowSpeed_BubblesFoam
+        Group = None
+    }
+    CollectedScalarParameters[93] = { Value=2, Name=FrontWave_Intensity, Group=None }
+    CollectedScalarParameters[94] =
+    {
+        Value = 3.87499
+        Name = Distortion_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[95] = { Value=15, Name=Opacity_FadeDistance, Group=None }
+    CollectedScalarParameters[96] =
+    {
+        Value = 1
+        Name = Distortion_Intensity_Max
+        Group = None
+    }
+    CollectedScalarParameters[97] =
+    {
+        Value = -3
+        Name = Slopes_Tex1_2_Parallax
+        Group = None
+    }
+    CollectedScalarParameters[98] =
+    {
+        Value = 0.327478
+        Name = Slopes_Emissive_Multiplier
+        Group = None
+    }
+    CollectedScalarParameters[99] =
+    {
+        Value = 6.3533
+        Name = BubblesTexture_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[100] =
+    {
+        Value = 0.1
+        Name = FlowTexture_MacroScale
+        Group = None
+    }
+    CollectedScalarParameters[101] =
+    {
+        Value = 0.05
+        Name = Slopes_FoamTransition_ScalerX
+        Group = None
+    }
+    CollectedScalarParameters[102] = { Value=287.512, Name=Deep_Distance, Group=None }
+    CollectedScalarParameters[103] =
+    {
+        Value = 0.666843
+        Name = Obstacles_BackIntensity
+        Group = None
+    }
+    CollectedScalarParameters[104] =
+    {
+        Value = 0.05
+        Name = Slopes_FoamTransition_ScalerY
+        Group = None
+    }
+    CollectedScalarParameters[105] =
+    {
+        Value = 0.271458
+        Name = UVDistortion_FoamSlope
+        Group = None
+    }
+    CollectedScalarParameters[106] = { Value=0.550459, Name=Bubbles_Chaos, Group=None }
+    CollectedScalarParameters[107] = { Value=0.95, Name=Opacity, Group=None }
+    CollectedScalarParameters[108] =
+    {
+        Value = 98.2201
+        Name = Slopes_BaseColor_Deep_Distance
+        Group = None
+    }
+    CollectedScalarParameters[109] = { Value=0.1, Name=FoamMacroMaskPower, Group=None }
+    CollectedScalarParameters[110] =
+    {
+        Value = 1.77693
+        Name = Slopes_Refraction
+        Group = None
+    }
+    CollectedScalarParameters[111] = { Value=0.377893, Name=AutoWaveScale, Group=None }
+    CollectedScalarParameters[112] =
+    {
+        Value = 0.145871
+        Name = UVDistortion_Slopes
+        Group = None
+    }
+    CollectedScalarParameters[113] = { Value=2, Name=Slopes_Normal_Speed, Group=None }
+    CollectedScalarParameters[114] =
+    {
+        Value = 2.5
+        Name = Slopes_Heightmask_Brightness
+        Group = None
+    }
+    CollectedScalarParameters[115] =
+    {
+        Value = 0.5
+        Name = Slopes_Normals_ScaleX
+        Group = None
+    }
+    CollectedScalarParameters[116] =
+    {
+        Value = 0.294461
+        Name = Obstacles_FrontIntensity
+        Group = None
+    }
+    CollectedScalarParameters[117] = { Value=1, Name=Slopes_Metallic_Power, Group=None }
+    CollectedScalarParameters[118] = { Value=0.8, Name=Slope_MinOpacity, Group=None }
+    CollectedScalarParameters[119] = { Value=1, Name=Foam1_Scale_X, Group=None }
+    CollectedScalarParameters[120] = { Value=1.48827, Name=BaseIntensity, Group=None }
+    CollectedScalarParameters[121] =
+    {
+        Value = 6.96245
+        Name = Fresnel_Distortion
+        Group = None
+    }
+    CollectedScalarParameters[122] = { Value=1.09726, Name=AutoWave_Speed, Group=None }
+    CollectedScalarParameters[123] = { Value=0.6, Name=Distortion_Strength, Group=None }
+    CollectedScalarParameters[124] = { Value=360, Name=SlopeRiver_EndAngle, Group=None }
+    CollectedScalarParameters[125] =
+    {
+        Value = 1
+        Name = FlowTexture_Turbulent_Intensity
+        Group = None
+    }
+    CollectedScalarParameters[126] = { Value=200, Name=Color_FadeDistance, Group=None }
+    CollectedScalarParameters[127] =
+    {
+        Value = 1.59021
+        Name = TurbulentFlowSpeed
+        Group = None
+    }
+    CollectedScalarParameters[128] = { Value=0.4, Name=TransitionScale, Group=None }
+    CollectedScalarParameters[129] = { Value=0.25, Name=TranasitionSpeed, Group=None }
+    CollectedScalarParameters[130] =
+    {
+        Value = 0.438056
+        Name = FlowTexture_Lerp
+        Group = None
+    }
+    CollectedScalarParameters[131] = { Value=0.180132, Name=Diffusivity, Group=None }
+}
+CollectedVectorParameters[12] =
+{
+    CollectedVectorParameters[0] =
+    {
+        Value = { R=5, G=5, B=0.01, A=1 }
+        Name = Slopes_AltNRip_Normal_Multiplier
+        Group = None
+    }
+    CollectedVectorParameters[1] =
+    {
+        Value = { R=0.604098, G=0.615904, B=0.561214, A=1 }
+        Name = Slopes_Normal_Power
+        Group = None
+    }
+    CollectedVectorParameters[2] =
+    {
+        Value = { R=0.0425, G=0.0765, B=0.085, A=1 }
+        Name = ColorWaterDeep
+        Group = None
+    }
+    CollectedVectorParameters[3] =
+    {
+        Value = { R=0.145413, G=0.03, B=0, A=1 }
+        Name = Slopes_Transition_Speed1
+        Group = None
+    }
+    CollectedVectorParameters[4] =
+    {
+        Value = { R=0.526943, G=0.655155, B=0.8, A=1 }
+        Name = DeepColor
+        Group = None
+    }
+    CollectedVectorParameters[5] =
+    {
+        Value = { R=0.126325, G=0.145033, B=0.155, A=1 }
+        Name = Water_Tint
+        Group = None
+    }
+    CollectedVectorParameters[6] =
+    {
+        Value = { R=0.161134, G=0.43187, B=2.47898, A=1 }
+        Name = Normal_Power
+        Group = None
+    }
+    CollectedVectorParameters[7] =
+    {
+        Value = { R=0.117, G=0.156, B=0.195, A=1 }
+        Name = ColorWaterSurface
+        Group = None
+    }
+    CollectedVectorParameters[8] =
+    {
+        Value = { R=0.229358, G=-0.03, B=0, A=1 }
+        Name = Slopes_Transition_Speed2
+        Group = None
+    }
+    CollectedVectorParameters[9] =
+    {
+        Value = { R=0.526943, G=0.655155, B=0.8, A=1 }
+        Name = Contour
+        Group = None
+    }
+    CollectedVectorParameters[10] =
+    {
+        Value = { R=4, G=4, B=1, A=1 }
+        Name = Slopes_AltNormals_Intensity
+        Group = None
+    }
+    CollectedVectorParameters[11] =
+    {
+        Value = { R=0.0287, G=0.03281, B=0.035, A=1 }
+        Name = Slopes_WaterTint
+        Group = None
+    }
+}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[3] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 0.671875
+        UVChannelIndex = 0
+        TextureName = T_FlowTexture_BC
+    }
+    TextureStreamingData[1] =
+    {
+        SamplingScale = 0.0625
+        UVChannelIndex = 0
+        TextureName = T_FoamMacro_BC
+    }
+    TextureStreamingData[2] =
+    {
+        SamplingScale = 4.07813
+        UVChannelIndex = 0
+        TextureName = T_Water_Ripple_Directional_Noise
+    }
+}

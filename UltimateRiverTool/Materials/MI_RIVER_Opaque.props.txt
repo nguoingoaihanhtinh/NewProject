@@ -1,0 +1,346 @@
+Parent = Material3'/Game/UltimateRiverTool/Materials/M_RIVER_OpaqueST.M_RIVER_OpaqueST'
+ScalarParameterValues[35] =
+{
+    ScalarParameterValues[0] =
+    {
+        ParameterInfo = { Name=Displacement_Intensity }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[1] =
+    {
+        ParameterInfo = { Name=Displacement_Obstacle_Intensity }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[2] =
+    {
+        ParameterInfo = { Name=Displacement_Obstacle_Power }
+        ParameterValue = 0
+        ParameterName = None
+    }
+    ScalarParameterValues[3] =
+    {
+        ParameterInfo = { Name=Displacement_ZPower }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[4] =
+    {
+        ParameterInfo = { Name=ZHeight }
+        ParameterValue = 25
+        ParameterName = None
+    }
+    ScalarParameterValues[5] =
+    {
+        ParameterInfo = { Name=AutoWave_NormalDepth }
+        ParameterValue = 20
+        ParameterName = None
+    }
+    ScalarParameterValues[6] =
+    {
+        ParameterInfo = { Name=AutoWave_Speed }
+        ParameterValue = 0.6
+        ParameterName = None
+    }
+    ScalarParameterValues[7] =
+    {
+        ParameterInfo = { Name=AutoWaveScale }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[8] =
+    {
+        ParameterInfo = { Name=BubblesTexture_Intensity }
+        ParameterValue = 6.3533
+        ParameterName = None
+    }
+    ScalarParameterValues[9] =
+    {
+        ParameterInfo = { Name=BubblesTexture_Power }
+        ParameterValue = 4.72748
+        ParameterName = None
+    }
+    ScalarParameterValues[10] =
+    {
+        ParameterInfo = { Name=Diffusivity }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[11] =
+    {
+        ParameterInfo = { Name=FlowTexture_Lerp }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[12] =
+    {
+        ParameterInfo = { Name=FlowTexture_Turbulent_Intensity }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[13] =
+    {
+        ParameterInfo = { Name=Flowmap_Power }
+        ParameterValue = 0.966456
+        ParameterName = None
+    }
+    ScalarParameterValues[14] =
+    {
+        ParameterInfo = { Name=Bubbles_Chaos }
+        ParameterValue = 0.75
+        ParameterName = None
+    }
+    ScalarParameterValues[15] =
+    {
+        ParameterInfo = { Name=Bubbles_Scale }
+        ParameterValue = 0.78
+        ParameterName = None
+    }
+    ScalarParameterValues[16] =
+    {
+        ParameterInfo = { Name=FlowSpeed_BubblesFoam }
+        ParameterValue = 0.15
+        ParameterName = None
+    }
+    ScalarParameterValues[17] =
+    {
+        ParameterInfo = { Name=Slopes_Foam_ScalerY }
+        ParameterValue = 1
+        ParameterName = None
+    }
+    ScalarParameterValues[18] =
+    {
+        ParameterInfo = { Name=Slopes_Metallic_Multiplier }
+        ParameterValue = 3
+        ParameterName = None
+    }
+    ScalarParameterValues[19] =
+    {
+        ParameterInfo = { Name=Slopes_Metallic_Power }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[20] =
+    {
+        ParameterInfo = { Name=Slopes_ScaleX }
+        ParameterValue = 0.45
+        ParameterName = None
+    }
+    ScalarParameterValues[21] =
+    {
+        ParameterInfo = { Name=Slopes_ScaleY }
+        ParameterValue = 0.988425
+        ParameterName = None
+    }
+    ScalarParameterValues[22] =
+    {
+        ParameterInfo = { Name=Slopes_Tex1_ScaleX }
+        ParameterValue = 0.49
+        ParameterName = None
+    }
+    ScalarParameterValues[23] =
+    {
+        ParameterInfo = { Name=Slopes_Tex1_ScaleY }
+        ParameterValue = 0.3
+        ParameterName = None
+    }
+    ScalarParameterValues[24] =
+    {
+        ParameterInfo = { Name=Slopes_Tex1_Speed_X }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[25] =
+    {
+        ParameterInfo = { Name=Slopes_Tex1_Speed_Y }
+        ParameterValue = 0.1
+        ParameterName = None
+    }
+    ScalarParameterValues[26] =
+    {
+        ParameterInfo = { Name=Slopes_Tex2_Speed_Y }
+        ParameterValue = 0.51
+        ParameterName = None
+    }
+    ScalarParameterValues[27] =
+    {
+        ParameterInfo = { Name=FoamMacroMaskPower }
+        ParameterValue = 0.05
+        ParameterName = None
+    }
+    ScalarParameterValues[28] =
+    {
+        ParameterInfo = { Name=FoamMacroMaskScale }
+        ParameterValue = 0.5
+        ParameterName = None
+    }
+    ScalarParameterValues[29] =
+    {
+        ParameterInfo = { Name=LinearFlowAlpha_Intensity }
+        ParameterValue = 0.99464
+        ParameterName = None
+    }
+    ScalarParameterValues[30] =
+    {
+        ParameterInfo = { Name=LinearFlowAlpha_Power }
+        ParameterValue = 0.848029
+        ParameterName = None
+    }
+    ScalarParameterValues[31] =
+    {
+        ParameterInfo = { Name=NormalScaler }
+        ParameterValue = 7
+        ParameterName = None
+    }
+    ScalarParameterValues[32] =
+    {
+        ParameterInfo = { Name=Tessellation Multiplier }
+        ParameterValue = 2
+        ParameterName = None
+    }
+    ScalarParameterValues[33] =
+    {
+        ParameterInfo = { Name=TranasitionSpeed }
+        ParameterValue = 0.2
+        ParameterName = None
+    }
+    ScalarParameterValues[34] =
+    {
+        ParameterInfo = { Name=RefractionDepthBias }
+        ParameterValue = 0
+        ParameterName = None
+    }
+}
+TextureParameterValues[8] =
+{
+    TextureParameterValues[0] =
+    {
+        ParameterInfo = { Name=FallingWater2_N }
+        ParameterValue = Texture2D'/Game/UltimateRiverTool/Textures/T_WaterfallMask_N.T_WaterfallMask_N'
+        ParameterName = None
+    }
+    TextureParameterValues[1] =
+    {
+        ParameterInfo = { Name=FlowFoam }
+        ParameterValue = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowTexture_BC.T_FlowTexture_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[2] =
+    {
+        ParameterInfo = { Name=FoamBubbles }
+        ParameterValue = Texture2D'/Game/UltimateRiverTool/Textures/T_FoamBubbles_BC.T_FoamBubbles_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[3] =
+    {
+        ParameterInfo = { Name=LinearNormal }
+        ParameterValue = Texture2D'/Game/Environment/Resource/Water/Texture/T_Water_Ripple_Directional_Noise.T_Water_Ripple_Directional_Noise'
+        ParameterName = None
+    }
+    TextureParameterValues[4] =
+    {
+        ParameterInfo = { Name=Noises }
+        ParameterValue = Texture2D'/Game/Environment/Resource/Water/Texture/T_NoisesBig_BC.T_NoisesBig_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[5] =
+    {
+        ParameterInfo = { Name=TurbulentSlopes }
+        ParameterValue = Texture2D'/Game/UltimateRiverTool/Textures/T_Foam_Masks_BC.T_Foam_Masks_BC'
+        ParameterName = None
+    }
+    TextureParameterValues[6] =
+    {
+        ParameterInfo = { Name=WaterDrop }
+        ParameterValue = Texture2D'/Game/UltimateRiverTool/Textures/Generic/T_FallingWater_02.T_FallingWater_02'
+        ParameterName = None
+    }
+    TextureParameterValues[7] =
+    {
+        ParameterInfo = { Name=WaterNoizeBlend }
+        ParameterValue = Texture2D'/Game/UltimateRiverTool/Textures/T_FlowNoise_M.T_FlowNoise_M'
+        ParameterName = None
+    }
+}
+VectorParameterValues[4] =
+{
+    VectorParameterValues[0] =
+    {
+        ParameterInfo = { Name=DeepColor }
+        ParameterValue = { R=0.526943, G=0.655155, B=0.8, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[1] =
+    {
+        ParameterInfo = { Name=Slopes_AltNRip_Normal_Multiplier }
+        ParameterValue = { R=1, G=1, B=1, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[2] =
+    {
+        ParameterInfo = { Name=Slopes_Normal_Power }
+        ParameterValue = { R=0.6, G=0.6, B=0.6, A=1 }
+        ParameterName = None
+    }
+    VectorParameterValues[3] =
+    {
+        ParameterInfo = { Name=Slopes_WaterTint }
+        ParameterValue = { R=0.0287, G=0.03281, B=0.035, A=1 }
+        ParameterName = None
+    }
+}
+BasePropertyOverrides =
+{
+    bOverride_BlendMode = false
+    BlendMode = BLEND_Translucent (2)
+    bOverride_TwoSided = false
+    TwoSided = false
+    bOverride_OpacityMaskClipValue = false
+    OpacityMaskClipValue = 0.3333
+}
+StaticParameters =
+{
+    StaticSwitchParameters[3] =
+    {
+        StaticSwitchParameters[0] =
+        {
+            Value = false
+            ParameterInfo = { Name=SimpleUVDistortion }
+            bOverride = true
+        }
+        StaticSwitchParameters[1] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseDistanceFieldFlow }
+            bOverride = true
+        }
+        StaticSwitchParameters[2] =
+        {
+            Value = true
+            ParameterInfo = { Name=UseRefraction }
+            bOverride = true
+        }
+    }
+    StaticComponentMaskParameters[0] = {}
+    TerrainLayerWeightParameters[0] = {}
+    MaterialLayersParameters[0] = {}
+}
+RuntimeVirtualTextureParameterValues[0] = {}
+FontParameterValues[0] = {}
+FlattenedTexture = None
+MobileBaseTexture = None
+MobileNormalTexture = None
+bUseMobileSpecular = false
+MobileSpecularPower = 16
+MobileSpecularMask = MSM_Constant (0)
+MobileMaskTexture = None
+TextureStreamingData[1] =
+{
+    TextureStreamingData[0] =
+    {
+        SamplingScale = 1
+        UVChannelIndex = 0
+        TextureName = T_FallingWater_02
+    }
+}
