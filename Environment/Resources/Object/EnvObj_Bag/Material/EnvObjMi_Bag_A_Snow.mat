@@ -1,0 +1,7 @@
+Diffuse=EnvObjTX_Bag_A_cl
+Normal=EnvObjTX_Bag_A_no
+Other[0]=T_Noise_Cloud
+Other[1]=EnvLndTX_Snw_Grd_SimpleSnow_cl
+Other[2]=EnvObjTX_Box_A_cl
+Other[3]=EnvObjTX_Box_A_no
+Other[4]=T_DummyBlack
